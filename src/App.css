@@ -1,0 +1,89 @@
+.App {
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    top: 255px;
+    bottom: 213px;
+    justify-content: center;
+    right: 5px;
+    font-family: Finger Paint;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: #FFFFFF;
+    border: 10px solid #000000;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 23px;
+    margin-bottom: 23px;
+    border-radius: 12px;
+}
+
+.box:hover {
+    background: grey;
+}
+
+.container-row {
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.box {
+    justify-content: center;
+    text-align: center;
+}
+
+.header-component {
+    font-family: Finger Paint;
+    text-align: center;
+    margin-top: 158px;
+    color: #0026ED;
+    font-size: 44px;
+    margin-left: 555px;
+    margin-right: 557px;
+    line-height: 64.86px;
+}
+
+.playAgain {
+    position: relative;
+    left: 150px;
+    width: 100px;
+    height: 40px;
+    color: red;
+}
+
+.playAgainB {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.turnX {
+    color: red;
+}
+
+.turnX:hover {
+    color: white;
+    background-color: red;
+}
+
+.turnY {
+    color: #0026ED;
+}
+
+.turnY:hover {
+    color: white;
+    background-color: blue;
+}
